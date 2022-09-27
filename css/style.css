@@ -1,3 +1,92 @@
-
-
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+/*GLOBAL*/
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;    
+    text-align: center;
+}
+.container {
+    max-width: 100vw;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+section {
+    padding: 96px 0;
+}
+
+
+/*NAVBAR*/
+
+
+
+.topnav {
+    position: relative;
+    margin: 0 20px;
+    padding: 0 20px;    
+    }
+.navbar {
+    position: relative;
+    width: 100vw;
+    
+
+}
+.navbar-logo {
+    font-family: 'Yellowtail', cursive;
+    color: orange;
+    font-size: 36px;
+}
+.nav-link {
+    color: #fff;
+    width: 110px;
+}
+
+/*SPLASH*/
+
+.splash .container {
+    background-image: url('https://i.postimg.cc/Qxc4SNch/splash-img-tiny.jpg');
+    background-position:center;
+    object-fit: cover;
+    height: 800px;
+    max-height: 100vh;
+    position: absolute;
+}
+.welcome-heading {
+    position: relative;
+    line-height:50px;
+  text-align:center;
+}
+.vertical-container {
+    
+    width:100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.page-subtitle {
+    font-family: 'IBM Plex Serif', serif;
+}
+.page-title {
+    font-family: 'Kanit', sans-serif;
+}
+
+
