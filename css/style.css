@@ -25,11 +25,21 @@ body {
     margin: 0 auto;
     position: absolute;
 }
-
 section {
     padding: 96px 0;
 }
-
+.btn {
+    min-width: 180px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: orange;
+    
+}
 
 /*NAVBAR*/
 
@@ -37,10 +47,12 @@ section {
 
 .topnav {
     position: relative;
+    display: flex;
     margin: 0 20px;
     padding: 0 20px;    
     }
 .navbar {
+    margin: auto;
     position: relative;
     width: 100vw;
     
@@ -67,6 +79,7 @@ section {
     position: absolute;
 }
 .welcome-heading {
+    margin: auto;
     position: relative;
     line-height:50px;
   text-align:center;
@@ -87,6 +100,7 @@ section {
 }
 .page-title {
     font-family: 'Kanit', sans-serif;
+    font-weight: 600;
 }
 
 
